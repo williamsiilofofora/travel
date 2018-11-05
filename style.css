@@ -1,0 +1,589 @@
+/* Mini reset */
+li a{
+	text-decoration:none;
+	list-style-type:none;
+	list-style: none;
+}
+*{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+}
+
+body {
+	background-image:url(images-travel/bandeau-haut.jpg);
+    background-repeat:repeat-x;
+    background-position: top;
+/*    background-attachment: fixed; */
+
+}
+#page{
+	max-width: 1101px;
+	width:100%;
+	margin: 0 auto;
+	min-height:96vh;
+}
+#page #menuhaut{
+	width:100%;
+	height: 45px;
+}
+#page #menuhaut ul li a:hover{
+	background-color:black;
+	font-size:14px;
+	text-shadow:0px 0px 7px #ffffff;
+
+}
+#menuhaut ul {
+	display:flex;
+	padding-top:12px;
+}
+#menuhaut li{
+	border-right: 1px solid white;
+	font-size: 12px;
+	display: flex;
+	padding:0 25px;
+ }
+ #menuhaut ul li:last-child{
+	border:none;
+	width:40%;
+	display: flex;
+	justify-content: flex-end;
+}
+ #menuhaut ul li:nth-child(4){
+	border:none;
+	margin-right:165px;
+}
+ #menuhaut a{
+	color:white;
+	font-size: 14px;
+}
+#logo{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 5px;
+}
+#menuprincipal {
+	width: 100%;
+	background-color:;
+	height:50px;
+	
+}
+#menuprincipal ul {
+	text-align: center;
+	padding-top:15px;
+} 
+#menuprincipal ul li{
+	display: inline-block;
+	align-items: center;
+	text-transform: uppercase;
+	
+}
+#menuprincipal ul li a{
+	color:black;
+	font-weight:bold;
+	margin-right:30px;
+}
+#menuprincipal ul li a:hover,
+#menuprincipal ul li a.choix{
+	border-bottom:2px dotted black;
+	color:#cda776;
+}
+/* ===== DEBUT D'INDEX ===== */
+#promo {
+	max-width: 1101px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+#promo .blocpromo{
+	width: 23%;
+	word-spacing:2px;
+}
+#promo .blocpromo img{
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#promo .blocpromo h1{
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 10px;
+	font-size: 16px;
+	
+}
+#promo .blocpromo p{
+	margin-bottom: 10px;
+}
+
+#promo .blocpromo a{
+	color:#cda776;
+}
+#slider {
+	box-shadow:none;
+	margin-bottom:-1px;
+}
+/* ==================FOOTER================== */
+#pied {
+	color:white;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto; 
+	max-width: 1101px;
+	line-height: 45px;
+}
+#footer{
+	background-image: url(images-travel/bandeau-bas.jpg);
+	background-repeat: repeat-x;
+	height: 46px;
+}
+#reseaux {
+	margin:30px 0 15px 0;
+	text-align: right;
+	font-size: 13px;
+	color:#cda776;
+}
+#reseaux img{
+	margin-left: 0.3%;
+}
+/*==================section page sejours===========*/
+
+#sejours{
+	max-width: 1101px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	font-family: arial;
+}
+#sejours .sejours2{
+	width: 49%;
+}
+#sejours .photo{
+	width: 100%;
+}
+#sejours .sejours2 .listesejours{
+	display: flex;
+	margin:20px 10px;
+	font-weight: bold;
+}
+#sejours .sejours2 .listesejours p{
+	margin-right: 80px;
+}
+.promo2{
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+}
+.promo2 .blocpromo2 {
+	width: 49%;
+	border:1px solid #cda776;
+	display: flex;
+	margin-bottom:4px;
+	
+}
+.promo2 .blocpromo2 .blocsejours{
+	width:40%;
+	margin-bottom:15px;
+	margin-left:4px;
+	margin-top:4px;
+}
+.promo2 .blocpromo2 .blocsejours2{
+	width:60%;
+	margin-top:4px;
+	margin-bottom:15px;
+	margin-right:4px;
+}
+.promo2 .blocpromo2 h2{
+	font-size: 18px;
+	margin-bottom:55px;
+}
+.promo2 .blocpromo2 a{
+	text-decoration:none;
+	color:#cda776;
+}
+.promo2 .blocpromo2 img{
+	width:100%;
+}
+
+/*==================section page services===========*/
+
+#services{
+	display: flex;
+	justify-content: space-between;
+	font-family: arial;
+}
+#services #promoservices{
+	display: flex;
+	flex-wrap: wrap;
+	height: 100%;
+	width: 72%;
+}
+#services #promoservices .services{
+	width:31%;
+	border:1px dotted black;
+	margin:5px;
+	display: flex;
+	justify-content: space-between;
+	height:150px;
+}
+#services #promoservices .services .blocservice{
+	width:40%;
+	margin-top:10px;
+	margin-left:7px;
+}
+.blocservice h1{
+	display:block;
+	margin-bottom: 50px;
+}
+.blocservice a{
+	display: block;
+	margin-bottom:30px;
+	text-decoration: none;
+	color:#cda776;
+	font-size:14px;
+}
+#promoservices .services .blocservice img{
+	display:block;
+	width: 100%;
+}
+#services #pub {
+	padding-top:20px; 
+	border:1px dotted black;
+	font-weight: bold;
+	width: 20%;
+	margin-top:5px;
+	margin-right:25px;
+}
+#services #pub #newsl{
+	margin-left: 20px;
+}
+.button{
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+#pub #video{
+	width: 220px;
+}
+#pub img{
+	width: 220px;
+	margin-bottom: -3.5px;
+
+}
+/* ==================Debut de CONTACT================== */
+#contact{
+	width:100%;
+	display:flex;
+	justify-content: space-between;
+	font-family:"arial";
+	font-size:13px;
+}
+#coordonnees {
+		margin-left:15px;
+
+}
+#coordonnees p{
+	color:#cda776;
+	padding-bottom:25px;
+	font-size:14px;
+	font-weight:bold;
+
+}
+address{ 
+	font-style:inherit;
+}
+#carte iframe{
+	border:1px solid black;
+	margin-top:20px;
+}
+
+#formulaire{
+	width:65%;
+
+}
+#topcontact{
+	color:#cda776;
+	padding-bottom:25px;
+	font-size:14px;
+	font-weight:bold;
+}
+#formulaire fieldset{
+	width:100%;
+	border:1px dotted grey;
+	
+}
+#coord {
+	width:100%;
+
+}
+#mess {
+	width:100%;
+}
+#formulaire label {
+	display:inline-block;
+	width:100px;
+}
+#formulaire input[type=text],
+#formulaire input[type=color],
+#formulaire input[type=password],
+#formulaire input[type=email],
+#formulaire input[type=date],
+#formulaire input[type=button],
+#formulaire input[type=search],
+#formulaire input[type=number],
+#formulaire input[type=image],
+#formulaire textarea {
+	background-color:#97c59d;
+	border:none;
+	border-radius:10px;
+	padding:3px 3px;
+	vertical-align: top;
+}
+#formulaire select{
+	border:none;
+}
+#formulaire fieldset p{
+	padding:2px 2px;
+	margin:5px 5px;
+}
+#formulaire #labelmess{
+	width:21%;
+}
+#formulaire input[type=button]{
+	width:10%;
+}
+#formulaire legend{
+	color:grey;
+	margin-left:15px;
+}
+#botbutton input[type=submit],
+#botbutton input[type=reset]{
+	margin-top:15px;
+	margin-right:5px;
+	background: #cda776;
+	border-radius:14px;
+	border:4px solid #cda776;
+}
+/* ==================FIN DE CONTACT================== */
+/*==================sejour de reve===========*/
+#conteneureve .nivoSlider{
+	max-width: 1101px;
+	display: flex;
+	width:100%;
+	justify-content: space-around;
+}
+
+#minislider2 #sejourReve{
+	font-size: 40px;
+	text-align:center;
+	margin:25px auto;
+}
+
+#minislider2 ul li{
+	display:inline-block;
+	text-align: center;
+	font-size: 23px;
+	margin-bottom:35px;
+	margin-left: 15px;
+}
+#minislider2 ul{
+	text-align: center;
+}
+#minislider2 ul li a:hover{
+	color:#e5b785;
+	border-bottom:2px dashed #e5b785;
+}
+
+/*==============menu deroulant destination=======*/
+#destination {
+	display: flex;
+	justify-content: center;
+	padding-top: -80px;
+	position: absolute;
+	z-index: 1000;
+	width:65%;
+	top:500px;
+	left:18%;
+}
+.destination, #recherche{
+	width: 28%;
+	height: 50px;
+	background-color:white;
+	text-align: center;
+}
+.destination select{
+	margin:13px 0;
+	font-size: 20px;
+	width: 50%;
+	border:none;
+	background: transparent;
+	-webkit-appearance: none;
+}
+.destination #gps{
+	width: 40%;
+ 	height:35px;
+}
+.destination #etoile img{
+	width:25%;
+	padding-top: 5px;
+}
+.destination #etoile{
+	width:30%;
+ 	height:35px;
+}
+.destination img{
+	width: 30%;
+ 	margin-left:65px;
+}
+.destination{
+	display:flex;
+	align-items: center;
+}
+ #recherche img {
+ 	width: 25%;
+ 	margin-left:65px;
+
+ }
+ #recherche #loupe {
+ 	width: 40%;
+ 	height:35px;
+ }
+ #btnrch{
+	border:none;
+	background-color: #e5b785;
+	font-size: 20px;
+}
+#recherche{
+	background-color: #e5b785;
+	display:flex;
+	align-items: center;
+	text-align: center;
+	}
+/*==========carroussel==========*/
+	#blocmini{
+		display: flex;
+		justify-content: center;
+	}
+	#minislider2{
+		width: 900px;
+	}
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+div#slider2 {
+ 	overflow: hidden;
+  }
+div#slider2 figure div.niveau { 
+	width: 20%;
+	float: left; 
+	display:flex;
+	justify-content: space-around;
+
+}
+div#slider2 figure div.niveau .vignette{
+	width: 30%;
+	height: 450px;
+	background-color: #cfa372;
+	opacity: 0.8;
+}
+div#slider2 figure div.niveau .vignette .reserver{
+	background-color: red;
+	width: 30%;
+	height: 30px;
+	border-radius: 55px;
+	color:white;
+	text-transform: uppercase;
+	margin-left: 35%;
+	margin-top: 45px;
+}
+
+div#slider2 figure div.niveau .vignette p{
+	color:black;
+	font-size: 18px;
+	margin:15px 8px;
+}
+div#slider2 figure div img{
+	width: 95%;
+	height: auto;
+	margin:15px 8px;
+}
+div#slider2 figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 25s slidy infinite; 
+}
+/*---------image zoom----*/
+#parcoure{
+	display: flex;
+	justify-content: center;
+	margin-top:30px;
+}
+#tparcoure{
+	width: 37%;
+	text-align: center;	
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+}
+#tparcoure h2{
+	text-transform: uppercase;
+	font-size: 32px;
+	margin: 6% 0;	
+}
+#imgzoom{
+	width:1101px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin:0 auto;
+	
+}
+#imgzoom div{
+	margin-top:25px;
+}
+#imgzoom span{
+	visibility: hidden;
+	color:white;
+}
+#imgzoom img{
+	width: 100%;
+	height: 100%;
+	transition: all 0.5s ease;
+	position: relative;
+
+
+}
+#imgzoom img:hover {
+	transform:scale(1.50);
+	z-index: 5000;
+}
+#imgzoom img:hover +span{
+	visibility: visible;
+	transform:scale(1.50);
+	position: absolute;
+	z-index: 5000;
+	font-size: 25px;
+	display: block;
+}
+#imgzoom .imgrande{
+	width: 48%;
+	height: 190px;
+}
+#imgzoom .imgpetite{
+	width: 23%;
+	height: 190px;
+}

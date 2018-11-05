@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<title>Contact</title>
+</head>
+<body>
+	<div id="page">
+
+		<nav id="menuhaut">
+			<ul>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Nous contacter</a></li>
+				<li><a href="#">Newsletter</a></li>
+				<li><a href="#">Site Mobile</a></li>
+				<li><a href="#">&rsaquo;&rsaquo; Espace Client</a></li>
+			</ul>
+		</nav>
+
+		<div id="logo"><img src="images-travel/logo-travel.jpg" /></div>
+
+		<nav id="menuprincipal">
+			<ul>
+				<li><a href="index.html">Accueil</a></li>
+				<li><a href="#">Vols & séjours</a></li>
+				<li><a href="#">Vols</a></li>
+				<li><a href="sejours.html">Séjours</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="contact.html" class="choix">Contact</a></li>
+			</ul>
+		</nav>
+	
+	<main id="contact">
+			
+
+			<div id="coordonnees">
+				<p>Nos coordonnées</p>
+				<address>Travel and Pleasure <br /> 17 bis av Amiral Courbet<br />56100 LORIENT <br /> France <br /> Téléphone: 02 97 15 15 15</address>
+				<div id="carte">
+					<iframe src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2682.916615283591!2d-3.3669895839778756!3d47.744272579193975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48105e4e0418d49b%3A0xb6716a9016f5fee6!2s17+Rue+Amiral+Courbet%2C+56100+Lorient!5e0!3m2!1sfr!2sfr!4v1540024065496" width="300" height="250" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+					<form id="formulaire" method="post">
+						<p id="topcontact">Nous contacter</p>
+							<fieldset id="coord">
+								<legend>Vos coordonnées</legend>
+							<p><input id="m" type="radio" name="civilite" value="m" />
+								<label for="m">M.</label>
+
+							<input id="mme" type="radio" name="civilite" value="mme" />
+								<label for="mme">Mme</label>
+							</p>
+
+
+							<p>	<label for="nom">Votre nom</label>
+							<input type="text" name="nom" id="nom" placeholder="Votre nom">
+							</p>
+
+
+							<p>	<label for="prenom">Votre prenom</label>
+							<input type="text" name="prenom" id="prenom" placeholder="Votre prénom">
+							 </p>
+
+
+							<p>	<label for="adresse">Adresse</label>
+								<textarea name="adresse" id="adresse" cols="15" rows="3">
+								</textarea>
+								 </p>
+
+							<p>	<label for="codepostal">Code Postal</label>
+								<input type="text" id="codepostal" name="postal"> 
+							
+
+								<label for="ville">Ville</label>
+								<input type="text" id="ville"
+								name="ville" placeholder="Votre ville">
+							</p>
+
+							<p>	<label for="pays">Votre pays</label>
+								<select name="pays" id="pays">
+									<option value="">France</option>
+									<option value="">Belgique</option>
+									<option value="">Suisse</option>
+									<option value="">Angleterre</option>
+									<option value="">Espagne</option>
+								</select> 
+							</p>
+
+							
+						</fieldset>
+
+							<fieldset id="mess">
+								<legend>Votre Message</legend>
+
+								<p>
+								<label id="labelmess"> Votre message concerne</label>
+								<input type="checkbox" id="vol" name="vol" value="vols">
+								<label>Vols</label>
+							
+
+								<input type="checkbox" id="sejour" name="sejour" value="séjours">
+								<label>Séjours</label>
+
+								<input type="checkbox" id="autre" name="autre" value="autres">
+								<label>Autres</label>
+							</p>
+							
+						<p>	<label>Votre Message</label>
+							<textarea name="message2" id="message2" cols="15" rows="3" placeholder="message"></textarea>
+						</p>
+
+
+						</fieldset>
+						
+							<fieldset id="input_spe">
+								 <legend>Inputs Spécifiques</legend>
+								<p>
+									<label for="bouton3">Bouton</label>
+									<input type="button" name="bouton3" value="coucou" />
+								</p>
+
+								<p>
+									<label for="picto">Picto</label>
+									<input type="image" src="images-travel/facebook.jpg" alt="facebook" name="picto" />
+								</p>
+
+								<p>
+									<label for="pass">Mot de passe</label>
+									<input type="password" name="pass" placeholder="Votre mot de passe" />
+								</p>
+
+								<p>
+									<label for="nbr">Nombre</label>
+									<input type="number" name="nbr" />
+								</p>
+
+								<p>
+									<label for="date">Date</label>
+									<input type="date" name="date" />
+								</p>
+
+								<p>
+									<label for="email">Email</label>
+									<input type="email" name="email"/>
+								</p>
+
+								<p>
+									<label for="couleur">Couleur</label><input type="color" name="couleur" />
+								</p>
+
+								<p>
+									<label for="recherche">Recherche</label><input type="search" name="recherche" placeholder="rechercher" />
+								</p>
+
+						</fieldset>
+						<p id="botbutton">
+					<input type="submit" value="Envoyer" />
+
+				    <input type="reset" value="Annuler" />
+						</p>
+
+
+					</form>
+
+
+
+				</main>
+ <!-- Bas de page -->
+		 		<div id="reseaux">
+					<p>Nous suivre</p>
+					<a href="#"><img src="images-travel/facebook.jpg" alt="facebook" /></a><a href="#"><img src="images-travel/twitter.jpg" alt="twitter" /></a>
+				</div>
+			</div>
+				<footer id="footer">
+					<div id="pied">
+					<p>© 2017-Tous droits réservés</p>
+					<p>Info légales</p>
+					</div>
+				</footer>
+</body>
+</html>
+	

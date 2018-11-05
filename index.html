@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+	<title>Accueil</title>
+</head>
+<body>
+	<div id="page">
+
+		<nav id="menuhaut">
+			<ul>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Nous contacter</a></li>
+				<li><a href="#">Newsletter</a></li>
+				<li><a href="#">Site Mobile</a></li>
+				<li><a href="#">&rsaquo;&rsaquo; Espace Client</a></li>
+			</ul>
+		</nav>
+
+		<div id="logo"><img src="images-travel/logo-travel.jpg" /></div>
+
+		<nav id="menuprincipal">
+			<ul>
+				<li><a href="index.html"class="choix">Accueil</a></li>
+				<li ><a href="sejours-reve.html">Vols & séjours</a></li>
+				<li><a href="#">Vols</li>
+				<li><a href="sejours.html">Séjours</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+					<!--==========debut de page==========-->
+		<main id="contenu">
+			<slider class="slider-wrapper theme-default">
+            	<div id="slider" class="nivoSlider">
+					<img src="images-travel/photo4.jpg" alt="#">
+					<img src="images-travel/photo1.jpg" alt="#">
+					<img src="images-travel/photo2.jpg" alt="#">
+					<img src="images-travel/photo3.jpg" alt="#">
+				</div>
+			</slider>
+			<section id="promo">
+				<article class="blocpromo">
+					<h1>Lune de miel</h1>
+					<img src="images-travel/picto-lune.jpg" alt="#"/>
+					<p>Classiques, quasi légendaires, pour amoureux en quête de romantisme et de valeurs sûres. Le mythe de la place lune de miel est né en polynésie sur pilotis, en Italie en palazzi, au Botswana en lodge perché...</p>
+					<div><a href="#">Lire la suite</a></div>
+				</article>
+				<article class="blocpromo">
+					<h1>Voyages en famille</h1>
+					<img src="images-travel/picto-famille.jpg" alt="#" />
+					<p>Les vacances en famille : Un moment attendu toute l'année ! Parce qu'on n'a pas envie de la même chose à 2 ou 12 ans, notre sélection de voyages vise à satisfair etous les goûts et tous les âges : des chauffe-ninerons pour les plus jeunes des activités encadrées pour les turbulents ou de l'aventures douce pour les intrépides</p>
+					<div><a href="#">Lire la suite</a></div>
+				</article>
+				<article class="blocpromo">
+					<h1>Croisiéres</h1>
+					<img src="images-travel/picto-croisiere.jpg" alt="#" />
+					<p>Voilier, catamaran, yacht, cargo mixte, dahabiah, brise-glace ou encore express côtier et pourquoi pas petit paquebot... Tous les bateaux répondent à l'appel du large qu'inévitablement on ressent un jour, que l'ont soit contemplatif ou prêt pour la manoeuvre. Larguez les amarres</p>
+					<div><a href="#">Lire la suite</a></div>	
+				</article>
+				<article class="blocpromo">
+					<h1>Destinations</h1>
+					<img src="images-travel/picto-carte.jpg" alt="#" />
+					<p>Neiges européennes, plages lointaines : à chacun sa façon de suspendre le temps... Choisissez votre destination...</p>
+				</article>			
+			</section>
+		</main>
+
+				<!--===============bas de page=================-->
+		<div id="reseaux">
+			<p>Nous suivre</p>
+			<a href="#"><img src="images-travel/facebook.jpg" alt="facebook" /></a><a href="#"><img src="images-travel/twitter.jpg" alt="twitter" /></a>
+		</div>
+	</div>
+		<footer id="footer">
+			<div id="pied">
+			<p>© 2017-Tous droits réservés</p>
+			<p>Info légales</p>
+			</div>
+		</footer> 
+
+								<!--script slider-->
+	<script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+            <script type="text/javascript" src="scripts/jquery.nivo.slider.js"></script>
+            <script type="text/javascript">
+            $(window).load(function() {
+            $('#slider').nivoSlider({
+            	controlNav: false
+            	            })
+            });
+           
+            </script>
+
+</body>
+</html>
